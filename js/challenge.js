@@ -1,2 +1,8 @@
 console.log ('hi');
-console.log('hi ryan');
+
+document.querySelector('#minus').addEventListener('click', e => {
+    const counterElement = document.querySelector('#counter');
+    parseInt(counterElement.innerText --);
+    
+})
+
